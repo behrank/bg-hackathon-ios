@@ -20,14 +20,13 @@ enum Storyboard : String {
         //These are the ViewController Storyboard Identifiers
         case empty = ""
         case landing = "landingVC"
-        case permission = "permissionVC"
-        case dashboard = "basetabbarController"
+        case dashboard = "dashboardVC"
         
         //Storyboards owning viewcontrollers
         var storyboardName : Storyboard {
             switch self {
-            case .landing,.permission:
-                return .landing
+            case .landing,.dashboard:
+                return .main
             default: return .main
             }
         }
@@ -35,42 +34,6 @@ enum Storyboard : String {
 }
 
 var kIndexPathPointer = "kIndexPathPointer"
-
-let categories = ["Bebek Ürünleri",
-                  "Beyaz Eşya",
-                  "Bilgisayar",
-                  "Cafe Restaurant",
-                  "Çocuk Giyim",
-                  "Dekorasyon",
-                  "Diğer",
-                  "Elektrikli Ev Aletleri",
-                  "Erkek Bakım",
-                  "Erkek Giyim",
-                  "Ev Tekstili",
-                  "Evcil Hayvan Ürünleri",
-                  "Fotoğraf & Kamera",
-                  "Hamile Giyim",
-                  "Kadın Bakım",
-                  "Kadın Giyim",
-                  "Kırtasiye & Ofis",
-                  "Kitap ve Hobi Ürünleri",
-                  "Makyaj Malzemeleri",
-                  "Mobilya",
-                  "Mutfak Gereçleri",
-                  "Otomotiv",
-                  "Oyuncak",
-                  "Sağlık Ürünleri",
-                  "Spor Giyim & Ayakkabı",
-                  "Spor Malzemeleri",
-                  "Süpermarket",
-                  "Tatil Fırsatları",
-                  "Telefon & Aksesuarları",
-                  "TV & Ses Sistemleri",
-                  "Temizlik Ürunleri",
-                  "Video Oyun & Konsol",
-                  "Yapı Market & Bahçe",
-                  "Yaşam & Etkinlik",
-                  "Yeme İçme" ]
 
 
 enum CornerRadius:CGFloat {

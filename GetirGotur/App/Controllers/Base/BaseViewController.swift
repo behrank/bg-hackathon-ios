@@ -36,7 +36,11 @@ class BaseViewController: UIViewController {
             NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideNotif(_:)), name: .UIKeyboardWillHide, object: nil)
         }
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        handleNavbarTitleView()
+
+    }
     func pushNetworkActivity() {
         activityCount += 1
     }
@@ -89,11 +93,12 @@ class BaseViewController: UIViewController {
         
     }
     
-    internal func navTitle() -> String? {
+    
+    internal func tsTitle() -> String? {
         return nil
     }
     
-    internal func navSubTitle() -> String? {
+    internal func tsSubTitle() -> String? {
         return nil
     }
     
@@ -109,7 +114,20 @@ class BaseViewController: UIViewController {
     }
 }
 fileprivate extension BaseViewController {
+    func handleNavbarTitleView() {
+        guard let title = tsTitle(), let subtitle = tsSubTitle() else {
+            self.navigationItem.titleView = titleImage
+            return
+        }
+        let tsTitleNavbar = TSTitleView.fromNib()
+        tsTitleNavbar.setup(title, subtitle: subtitle)
+        self.navigationItem.titleView = tsTitleNavbar
+    }
     
+    var titleImage : UIImageView {
+        let imageView = UIImageView(image: #imageLiteral(resourceName: "rocket_small"))
+        return imageView
+    }
     @objc func keyboardWillShownNotif(_ notification:Notification) {
         self.handleKeyboardNotif(notification: notification, willShow: true)
     }

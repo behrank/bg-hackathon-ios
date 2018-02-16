@@ -264,34 +264,7 @@ extension UILabel {
             self.layoutIfNeeded()
         }
     }
-    func updateColorsWithCategory(with catId:Int) {
-        
-        if catId == 1 || catId == 14 {
-            self.textColor = TagColors.blue.toUIColor()
-        }
-        else if catId == 2 || catId == 3 || catId == 8 || catId == 13 || catId == 30 || catId == 29 || catId == 32 || catId == 21 {
-            self.textColor = TagColors.red.toUIColor()
-        }
-        else if catId == 4 || catId == 35 {
-            self.textColor = TagColors.lightBlue.toUIColor()
-        }
-        else if catId == 5 || catId == 10 || catId == 16 || catId == 25  || catId == 26 {
-            self.textColor = TagColors.smoothYellow.toUIColor()
-        }
-        else if catId == 6 || catId == 11 || catId == 20 || catId == 33 {
-            self.textColor = TagColors.gray.toUIColor()
-        }
-        else if catId == 9  || catId == 12 || catId == 15 || catId == 19 || catId == 24 || catId == 31 {
-            self.textColor = TagColors.smoothRed.toUIColor()
-        }
-        else if catId == 27 {
-            self.textColor = TagColors.green.toUIColor()
-        }
-        else{
-            self.textColor = UIColor.darkGray
-        }
-        self.text = categories[catId-1]
-    }
+
 }
 extension UIImage {
     func areaAverage() -> UIColor {

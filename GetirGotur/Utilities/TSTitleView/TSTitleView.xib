@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TSTitleView" customModule="GetirGotur" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="297" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Görev Ata" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBg-St-SJ9">
+                    <rect key="frame" x="2" y="4" width="293" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Grup ve Kişilere Görev Atayın" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rm2-vg-Y05">
+                    <rect key="frame" x="2" y="26.5" width="293" height="13.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.87450980392156863" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rm2-vg-Y05" secondAttribute="trailing" constant="2" id="4x5-2E-hLa"/>
+                <constraint firstItem="rm2-vg-Y05" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="E6q-51-ZB0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="rm2-vg-Y05" secondAttribute="bottom" priority="900" constant="4" id="TYR-Tb-QP5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KBg-St-SJ9" secondAttribute="trailing" constant="2" id="dTo-Rh-Ss8"/>
+                <constraint firstItem="KBg-St-SJ9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gbg-hE-6Xv"/>
+                <constraint firstItem="KBg-St-SJ9" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" priority="900" constant="4" id="hQg-Mu-vU4"/>
+                <constraint firstItem="rm2-vg-Y05" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pRX-eL-mhC"/>
+                <constraint firstItem="rm2-vg-Y05" firstAttribute="top" secondItem="KBg-St-SJ9" secondAttribute="bottom" constant="2" id="uq1-I2-eVM"/>
+                <constraint firstItem="KBg-St-SJ9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="z4Q-em-8g3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblSubtitle" destination="rm2-vg-Y05" id="UgT-dB-98j"/>
+                <outlet property="lblTitle" destination="KBg-St-SJ9" id="YcA-me-tbk"/>
+            </connections>
+            <point key="canvasLocation" x="-5.5" y="-258"/>
+        </view>
+    </objects>
+</document>

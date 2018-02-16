@@ -20,6 +20,22 @@
 		0F55AD4620376F8500AAA930 /* LandingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD4020376F8500AAA930 /* LandingInteractor.swift */; };
 		0F60E5E6203770C50058FC0A /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F60E5E0203770C40058FC0A /* Globals.swift */; };
 		0F60E5E9203770C50058FC0A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F60E5E5203770C40058FC0A /* Extensions.swift */; };
+		0FEC8D1D20377A7000F21F8B /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D1C20377A7000F21F8B /* BaseTabBarController.swift */; };
+		0FEC8D3320377B5500F21F8B /* OrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D2D20377B5500F21F8B /* OrderPresenter.swift */; };
+		0FEC8D3420377B5500F21F8B /* OrderWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D2E20377B5500F21F8B /* OrderWorker.swift */; };
+		0FEC8D3520377B5500F21F8B /* OrderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D2F20377B5500F21F8B /* OrderRouter.swift */; };
+		0FEC8D3620377B5500F21F8B /* OrderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3020377B5500F21F8B /* OrderModels.swift */; };
+		0FEC8D3720377B5500F21F8B /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3120377B5500F21F8B /* OrderViewController.swift */; };
+		0FEC8D3820377B5500F21F8B /* OrderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3220377B5500F21F8B /* OrderInteractor.swift */; };
+		0FEC8D3F20377B8E00F21F8B /* OrderedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3920377B8E00F21F8B /* OrderedPresenter.swift */; };
+		0FEC8D4020377B8E00F21F8B /* OrderedWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3A20377B8E00F21F8B /* OrderedWorker.swift */; };
+		0FEC8D4120377B8E00F21F8B /* OrderedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3B20377B8E00F21F8B /* OrderedRouter.swift */; };
+		0FEC8D4220377B8E00F21F8B /* OrderedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3C20377B8E00F21F8B /* OrderedModels.swift */; };
+		0FEC8D4320377B8E00F21F8B /* OrderedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3D20377B8E00F21F8B /* OrderedViewController.swift */; };
+		0FEC8D4420377B8E00F21F8B /* OrderedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D3E20377B8E00F21F8B /* OrderedInteractor.swift */; };
+		0FEC8D462037802300F21F8B /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D452037802300F21F8B /* BaseNavigationController.swift */; };
+		0FEC8D4A203781C500F21F8B /* TSTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FEC8D48203781C500F21F8B /* TSTitleView.xib */; };
+		0FEC8D4B203781C500F21F8B /* TSTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D49203781C500F21F8B /* TSTitleView.swift */; };
 		0FF8966C20377112008FAA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8966B20377112008FAA26 /* Main.storyboard */; };
 		0FF8967020377491008FAA26 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8966F20377491008FAA26 /* AppManager.swift */; };
 		0FF89673203774F6008FAA26 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89672203774F6008FAA26 /* Common.swift */; };
@@ -71,6 +87,22 @@
 		0F55AD4020376F8500AAA930 /* LandingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingInteractor.swift; sourceTree = "<group>"; };
 		0F60E5E0203770C40058FC0A /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		0F60E5E5203770C40058FC0A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0FEC8D1C20377A7000F21F8B /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		0FEC8D2D20377B5500F21F8B /* OrderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPresenter.swift; sourceTree = "<group>"; };
+		0FEC8D2E20377B5500F21F8B /* OrderWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderWorker.swift; sourceTree = "<group>"; };
+		0FEC8D2F20377B5500F21F8B /* OrderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRouter.swift; sourceTree = "<group>"; };
+		0FEC8D3020377B5500F21F8B /* OrderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModels.swift; sourceTree = "<group>"; };
+		0FEC8D3120377B5500F21F8B /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		0FEC8D3220377B5500F21F8B /* OrderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInteractor.swift; sourceTree = "<group>"; };
+		0FEC8D3920377B8E00F21F8B /* OrderedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedPresenter.swift; sourceTree = "<group>"; };
+		0FEC8D3A20377B8E00F21F8B /* OrderedWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedWorker.swift; sourceTree = "<group>"; };
+		0FEC8D3B20377B8E00F21F8B /* OrderedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedRouter.swift; sourceTree = "<group>"; };
+		0FEC8D3C20377B8E00F21F8B /* OrderedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedModels.swift; sourceTree = "<group>"; };
+		0FEC8D3D20377B8E00F21F8B /* OrderedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedViewController.swift; sourceTree = "<group>"; };
+		0FEC8D3E20377B8E00F21F8B /* OrderedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedInteractor.swift; sourceTree = "<group>"; };
+		0FEC8D452037802300F21F8B /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0FEC8D48203781C500F21F8B /* TSTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSTitleView.xib; sourceTree = "<group>"; };
+		0FEC8D49203781C500F21F8B /* TSTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTitleView.swift; sourceTree = "<group>"; };
 		0FF8966B20377112008FAA26 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0FF8966F20377491008FAA26 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		0FF89672203774F6008FAA26 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
@@ -182,6 +214,7 @@
 			children = (
 				0F55AD3920376F5E00AAA930 /* Base */,
 				0F55AD3820376F5800AAA930 /* App Start */,
+				0FEC8D1E20377B0F00F21F8B /* Dashboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -200,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				0FF8968E20377703008FAA26 /* BaseViewController.swift */,
+				0FEC8D1C20377A7000F21F8B /* BaseTabBarController.swift */,
+				0FEC8D452037802300F21F8B /* BaseNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -220,12 +255,57 @@
 		0F60E5DF203770A50058FC0A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0FEC8D47203781C500F21F8B /* TSTitleView */,
 				0FF8969020377722008FAA26 /* LoadingView */,
 				0FF89671203774E3008FAA26 /* BaseModels */,
 				0F60E5E5203770C40058FC0A /* Extensions.swift */,
 				0F60E5E0203770C40058FC0A /* Globals.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0FEC8D1E20377B0F00F21F8B /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0FEC8D1F20377B2600F21F8B /* Ordered */,
+				0FEC8D2C20377B3800F21F8B /* Order */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0FEC8D1F20377B2600F21F8B /* Ordered */ = {
+			isa = PBXGroup;
+			children = (
+				0FEC8D3920377B8E00F21F8B /* OrderedPresenter.swift */,
+				0FEC8D3A20377B8E00F21F8B /* OrderedWorker.swift */,
+				0FEC8D3B20377B8E00F21F8B /* OrderedRouter.swift */,
+				0FEC8D3C20377B8E00F21F8B /* OrderedModels.swift */,
+				0FEC8D3D20377B8E00F21F8B /* OrderedViewController.swift */,
+				0FEC8D3E20377B8E00F21F8B /* OrderedInteractor.swift */,
+			);
+			path = Ordered;
+			sourceTree = "<group>";
+		};
+		0FEC8D2C20377B3800F21F8B /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				0FEC8D2D20377B5500F21F8B /* OrderPresenter.swift */,
+				0FEC8D2E20377B5500F21F8B /* OrderWorker.swift */,
+				0FEC8D2F20377B5500F21F8B /* OrderRouter.swift */,
+				0FEC8D3020377B5500F21F8B /* OrderModels.swift */,
+				0FEC8D3120377B5500F21F8B /* OrderViewController.swift */,
+				0FEC8D3220377B5500F21F8B /* OrderInteractor.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		0FEC8D47203781C500F21F8B /* TSTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				0FEC8D48203781C500F21F8B /* TSTitleView.xib */,
+				0FEC8D49203781C500F21F8B /* TSTitleView.swift */,
+			);
+			path = TSTitleView;
 			sourceTree = "<group>";
 		};
 		0FF8966D20377477008FAA26 /* Managers */ = {
@@ -396,6 +476,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FEC8D4A203781C500F21F8B /* TSTitleView.xib in Resources */,
 				0FF8966C20377112008FAA26 /* Main.storyboard in Resources */,
 				0FF8969320377722008FAA26 /* LoadingView.xib in Resources */,
 				0F55AD2020376D0500AAA930 /* LaunchScreen.storyboard in Resources */,
@@ -531,28 +612,43 @@
 				0F55AD1820376D0500AAA930 /* ViewController.swift in Sources */,
 				0F55AD4520376F8500AAA930 /* LandingViewController.swift in Sources */,
 				0F55AD4620376F8500AAA930 /* LandingInteractor.swift in Sources */,
+				0FEC8D4320377B8E00F21F8B /* OrderedViewController.swift in Sources */,
+				0FEC8D3620377B5500F21F8B /* OrderModels.swift in Sources */,
 				0F55AD4320376F8500AAA930 /* LandingRouter.swift in Sources */,
 				0FF89673203774F6008FAA26 /* Common.swift in Sources */,
+				0FEC8D462037802300F21F8B /* BaseNavigationController.swift in Sources */,
+				0FEC8D3820377B5500F21F8B /* OrderInteractor.swift in Sources */,
 				0FF8968B203775F3008FAA26 /* CarrierModels.swift in Sources */,
 				0F55AD4220376F8500AAA930 /* LandingWorker.swift in Sources */,
 				0F60E5E9203770C50058FC0A /* Extensions.swift in Sources */,
 				0FF89688203775F3008FAA26 /* CarrierPresenter.swift in Sources */,
 				0FF8967D203775DB008FAA26 /* PickerRouter.swift in Sources */,
+				0FEC8D1D20377A7000F21F8B /* BaseTabBarController.swift in Sources */,
 				0FF8969420377722008FAA26 /* LoadingView.swift in Sources */,
 				0FF8967C203775DB008FAA26 /* PickerWorker.swift in Sources */,
 				0F55AD4420376F8500AAA930 /* LandingModels.swift in Sources */,
+				0FEC8D3520377B5500F21F8B /* OrderRouter.swift in Sources */,
+				0FEC8D3F20377B8E00F21F8B /* OrderedPresenter.swift in Sources */,
 				0FF8968D203775F3008FAA26 /* CarrierInteractor.swift in Sources */,
 				0FF8967020377491008FAA26 /* AppManager.swift in Sources */,
 				0FF8967B203775DB008FAA26 /* PickerPresenter.swift in Sources */,
 				0FF89680203775DB008FAA26 /* PickerInteractor.swift in Sources */,
+				0FEC8D4220377B8E00F21F8B /* OrderedModels.swift in Sources */,
 				0FF8968C203775F3008FAA26 /* CarrierViewController.swift in Sources */,
+				0FEC8D4B203781C500F21F8B /* TSTitleView.swift in Sources */,
 				0F55AD4120376F8500AAA930 /* LandingPresenter.swift in Sources */,
 				0F55AD1620376D0500AAA930 /* AppDelegate.swift in Sources */,
+				0FEC8D4420377B8E00F21F8B /* OrderedInteractor.swift in Sources */,
 				0FF8968F20377703008FAA26 /* BaseViewController.swift in Sources */,
+				0FEC8D3720377B5500F21F8B /* OrderViewController.swift in Sources */,
+				0FEC8D4120377B8E00F21F8B /* OrderedRouter.swift in Sources */,
 				0FF89689203775F3008FAA26 /* CarrierWorker.swift in Sources */,
 				0F60E5E6203770C50058FC0A /* Globals.swift in Sources */,
 				0FF8967E203775DB008FAA26 /* PickerModels.swift in Sources */,
+				0FEC8D4020377B8E00F21F8B /* OrderedWorker.swift in Sources */,
 				0FF8967F203775DB008FAA26 /* PickerViewController.swift in Sources */,
+				0FEC8D3420377B5500F21F8B /* OrderWorker.swift in Sources */,
+				0FEC8D3320377B5500F21F8B /* OrderPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

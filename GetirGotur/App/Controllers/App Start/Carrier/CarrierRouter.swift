@@ -10,6 +10,7 @@ import UIKit
 
 @objc protocol CarrierRoutingLogic
 {
+    func routeToDashboard()
 
 }
 
@@ -24,5 +25,8 @@ class CarrierRouter: NSObject, CarrierRoutingLogic, CarrierDataPassing
     var dataStore: CarrierDataStore?
     
     //MARK : Routing
-    
+    func routeToDashboard() {
+        let destination = BaseTabBarController.fromStoryboard(.dashboard)
+        viewController?.navigationController?.pushViewController(destination, animated: true)
+    }
 }

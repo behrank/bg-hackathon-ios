@@ -69,6 +69,28 @@ class CarrierViewController: BaseViewController, CarrierDisplayLogic
             return
         }
         
+        if (txtCountryName.text != "" && txtCountryAmount.text == "") ||
+            (txtCountyName2.text != "" && txtCountryAmount2.text == "") ||
+            (txtCountyName3.text != "" && txtCountryAmount3.text == "")
+            {
+            self.showAlert(for: "GetirGötür", and: "Ülke bilgisinin yanına kg bilgisi yazmalısın", isQuestion: false, buttonTitles: ["Tamam"], completion: { _ in
+                
+            })
+            return
+        }
+        //Validated
+
+        if txtCountryName.text != "" {
+            AppManager.shared.pushCargoInfo(with: CargoInfo(contryName: txtCountryName.text! , carryAmount: txtCountryAmount.text!, isCarrierSelection: true))
+        }
+        if txtCountyName2.text != "" {
+            AppManager.shared.pushCargoInfo(with: CargoInfo(contryName: txtCountyName2.text! , carryAmount: txtCountryAmount2.text!, isCarrierSelection: true))
+        }
+        if txtCountyName3.text != "" {
+            AppManager.shared.pushCargoInfo(with: CargoInfo(contryName: txtCountyName3.text! , carryAmount: txtCountryAmount3.text!, isCarrierSelection: true))
+        }
+        
+        router?.routeToDashboard()
     }
 }
 
