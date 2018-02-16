@@ -9,10 +9,37 @@
 /* Begin PBXBuildFile section */
 		0F55AD1620376D0500AAA930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD1520376D0500AAA930 /* AppDelegate.swift */; };
 		0F55AD1820376D0500AAA930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD1720376D0500AAA930 /* ViewController.swift */; };
-		0F55AD1B20376D0500AAA930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F55AD1920376D0500AAA930 /* Main.storyboard */; };
 		0F55AD1D20376D0500AAA930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F55AD1C20376D0500AAA930 /* Assets.xcassets */; };
 		0F55AD2020376D0500AAA930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F55AD1E20376D0500AAA930 /* LaunchScreen.storyboard */; };
 		0F55AD2B20376D0500AAA930 /* GetirGoturUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD2A20376D0500AAA930 /* GetirGoturUITests.swift */; };
+		0F55AD4120376F8500AAA930 /* LandingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD3B20376F8500AAA930 /* LandingPresenter.swift */; };
+		0F55AD4220376F8500AAA930 /* LandingWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD3C20376F8500AAA930 /* LandingWorker.swift */; };
+		0F55AD4320376F8500AAA930 /* LandingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD3D20376F8500AAA930 /* LandingRouter.swift */; };
+		0F55AD4420376F8500AAA930 /* LandingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD3E20376F8500AAA930 /* LandingModels.swift */; };
+		0F55AD4520376F8500AAA930 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD3F20376F8500AAA930 /* LandingViewController.swift */; };
+		0F55AD4620376F8500AAA930 /* LandingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55AD4020376F8500AAA930 /* LandingInteractor.swift */; };
+		0F60E5E6203770C50058FC0A /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F60E5E0203770C40058FC0A /* Globals.swift */; };
+		0F60E5E9203770C50058FC0A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F60E5E5203770C40058FC0A /* Extensions.swift */; };
+		0FF8966C20377112008FAA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8966B20377112008FAA26 /* Main.storyboard */; };
+		0FF8967020377491008FAA26 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8966F20377491008FAA26 /* AppManager.swift */; };
+		0FF89673203774F6008FAA26 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89672203774F6008FAA26 /* Common.swift */; };
+		0FF8967B203775DB008FAA26 /* PickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89675203775DB008FAA26 /* PickerPresenter.swift */; };
+		0FF8967C203775DB008FAA26 /* PickerWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89676203775DB008FAA26 /* PickerWorker.swift */; };
+		0FF8967D203775DB008FAA26 /* PickerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89677203775DB008FAA26 /* PickerRouter.swift */; };
+		0FF8967E203775DB008FAA26 /* PickerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89678203775DB008FAA26 /* PickerModels.swift */; };
+		0FF8967F203775DB008FAA26 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89679203775DB008FAA26 /* PickerViewController.swift */; };
+		0FF89680203775DB008FAA26 /* PickerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8967A203775DB008FAA26 /* PickerInteractor.swift */; };
+		0FF89688203775F3008FAA26 /* CarrierPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89682203775F3008FAA26 /* CarrierPresenter.swift */; };
+		0FF89689203775F3008FAA26 /* CarrierWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89683203775F3008FAA26 /* CarrierWorker.swift */; };
+		0FF8968A203775F3008FAA26 /* CarrierRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89684203775F3008FAA26 /* CarrierRouter.swift */; };
+		0FF8968B203775F3008FAA26 /* CarrierModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89685203775F3008FAA26 /* CarrierModels.swift */; };
+		0FF8968C203775F3008FAA26 /* CarrierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89686203775F3008FAA26 /* CarrierViewController.swift */; };
+		0FF8968D203775F3008FAA26 /* CarrierInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89687203775F3008FAA26 /* CarrierInteractor.swift */; };
+		0FF8968F20377703008FAA26 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8968E20377703008FAA26 /* BaseViewController.swift */; };
+		0FF8969320377722008FAA26 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8969120377722008FAA26 /* LoadingView.xib */; };
+		0FF8969420377722008FAA26 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8969220377722008FAA26 /* LoadingView.swift */; };
+		9BE565C483465089BB27156E /* Pods_GetirGotur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435BFF81856C21488732AA32 /* Pods_GetirGotur.framework */; };
+		B4220306F57E1F9E2F19E089 /* Pods_GetirGoturUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBE2E43B1C3FCB945C63AC1 /* Pods_GetirGoturUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +53,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CF08FC15DF7A82D4663EF6B /* Pods-GetirGoturUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirGoturUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetirGoturUITests/Pods-GetirGoturUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0F55AD1220376D0500AAA930 /* GetirGotur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetirGotur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F55AD1520376D0500AAA930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F55AD1720376D0500AAA930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0F55AD1A20376D0500AAA930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F55AD1C20376D0500AAA930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F55AD1F20376D0500AAA930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F55AD2120376D0500AAA930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F55AD2620376D0500AAA930 /* GetirGoturUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetirGoturUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F55AD2A20376D0500AAA930 /* GetirGoturUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirGoturUITests.swift; sourceTree = "<group>"; };
 		0F55AD2C20376D0500AAA930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F55AD3B20376F8500AAA930 /* LandingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPresenter.swift; sourceTree = "<group>"; };
+		0F55AD3C20376F8500AAA930 /* LandingWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingWorker.swift; sourceTree = "<group>"; };
+		0F55AD3D20376F8500AAA930 /* LandingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingRouter.swift; sourceTree = "<group>"; };
+		0F55AD3E20376F8500AAA930 /* LandingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingModels.swift; sourceTree = "<group>"; };
+		0F55AD3F20376F8500AAA930 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		0F55AD4020376F8500AAA930 /* LandingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingInteractor.swift; sourceTree = "<group>"; };
+		0F60E5E0203770C40058FC0A /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		0F60E5E5203770C40058FC0A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0FF8966B20377112008FAA26 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0FF8966F20377491008FAA26 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		0FF89672203774F6008FAA26 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0FF89675203775DB008FAA26 /* PickerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPresenter.swift; sourceTree = "<group>"; };
+		0FF89676203775DB008FAA26 /* PickerWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWorker.swift; sourceTree = "<group>"; };
+		0FF89677203775DB008FAA26 /* PickerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerRouter.swift; sourceTree = "<group>"; };
+		0FF89678203775DB008FAA26 /* PickerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModels.swift; sourceTree = "<group>"; };
+		0FF89679203775DB008FAA26 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		0FF8967A203775DB008FAA26 /* PickerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerInteractor.swift; sourceTree = "<group>"; };
+		0FF89682203775F3008FAA26 /* CarrierPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierPresenter.swift; sourceTree = "<group>"; };
+		0FF89683203775F3008FAA26 /* CarrierWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierWorker.swift; sourceTree = "<group>"; };
+		0FF89684203775F3008FAA26 /* CarrierRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierRouter.swift; sourceTree = "<group>"; };
+		0FF89685203775F3008FAA26 /* CarrierModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierModels.swift; sourceTree = "<group>"; };
+		0FF89686203775F3008FAA26 /* CarrierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierViewController.swift; sourceTree = "<group>"; };
+		0FF89687203775F3008FAA26 /* CarrierInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierInteractor.swift; sourceTree = "<group>"; };
+		0FF8968E20377703008FAA26 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0FF8969120377722008FAA26 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		0FF8969220377722008FAA26 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		20D95A1CFE2FB915A713E8B8 /* Pods-GetirGotur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirGotur.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetirGotur/Pods-GetirGotur.debug.xcconfig"; sourceTree = "<group>"; };
+		21B2887B259089F2FDBE8452 /* Pods-GetirGotur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirGotur.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetirGotur/Pods-GetirGotur.release.xcconfig"; sourceTree = "<group>"; };
+		435BFF81856C21488732AA32 /* Pods_GetirGotur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetirGotur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		474F832BCA23D37A396293D1 /* Pods-GetirGoturUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirGoturUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetirGoturUITests/Pods-GetirGoturUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BBE2E43B1C3FCB945C63AC1 /* Pods_GetirGoturUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetirGoturUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE565C483465089BB27156E /* Pods_GetirGotur.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4220306F57E1F9E2F19E089 /* Pods_GetirGoturUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +122,8 @@
 				0F55AD1420376D0500AAA930 /* GetirGotur */,
 				0F55AD2920376D0500AAA930 /* GetirGoturUITests */,
 				0F55AD1320376D0500AAA930 /* Products */,
+				B0CE35FB3CF708CBED182A8F /* Pods */,
+				181969B29F496ABFEE6E8694 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +139,11 @@
 		0F55AD1420376D0500AAA930 /* GetirGotur */ = {
 			isa = PBXGroup;
 			children = (
+				0F55AD3520376D1000AAA930 /* App */,
+				0FF8966D20377477008FAA26 /* Managers */,
+				0F60E5DF203770A50058FC0A /* Utilities */,
 				0F55AD1520376D0500AAA930 /* AppDelegate.swift */,
 				0F55AD1720376D0500AAA930 /* ViewController.swift */,
-				0F55AD1920376D0500AAA930 /* Main.storyboard */,
 				0F55AD1C20376D0500AAA930 /* Assets.xcassets */,
 				0F55AD1E20376D0500AAA930 /* LaunchScreen.storyboard */,
 				0F55AD2120376D0500AAA930 /* Info.plist */,
@@ -96,6 +160,153 @@
 			path = GetirGoturUITests;
 			sourceTree = "<group>";
 		};
+		0F55AD3520376D1000AAA930 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0F55AD3620376F2000AAA930 /* Storyboards */,
+				0F55AD3720376F2500AAA930 /* Controllers */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0F55AD3620376F2000AAA930 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8966B20377112008FAA26 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0F55AD3720376F2500AAA930 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F55AD3920376F5E00AAA930 /* Base */,
+				0F55AD3820376F5800AAA930 /* App Start */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F55AD3820376F5800AAA930 /* App Start */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89681203775E5008FAA26 /* Carrier */,
+				0F55AD3A20376F7300AAA930 /* Landing */,
+				0FF89674203775CE008FAA26 /* Picker */,
+			);
+			path = "App Start";
+			sourceTree = "<group>";
+		};
+		0F55AD3920376F5E00AAA930 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8968E20377703008FAA26 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0F55AD3A20376F7300AAA930 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				0F55AD3B20376F8500AAA930 /* LandingPresenter.swift */,
+				0F55AD3C20376F8500AAA930 /* LandingWorker.swift */,
+				0F55AD3D20376F8500AAA930 /* LandingRouter.swift */,
+				0F55AD3E20376F8500AAA930 /* LandingModels.swift */,
+				0F55AD3F20376F8500AAA930 /* LandingViewController.swift */,
+				0F55AD4020376F8500AAA930 /* LandingInteractor.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		0F60E5DF203770A50058FC0A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8969020377722008FAA26 /* LoadingView */,
+				0FF89671203774E3008FAA26 /* BaseModels */,
+				0F60E5E5203770C40058FC0A /* Extensions.swift */,
+				0F60E5E0203770C40058FC0A /* Globals.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0FF8966D20377477008FAA26 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8966E20377483008FAA26 /* App Manager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0FF8966E20377483008FAA26 /* App Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8966F20377491008FAA26 /* AppManager.swift */,
+			);
+			path = "App Manager";
+			sourceTree = "<group>";
+		};
+		0FF89671203774E3008FAA26 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89672203774F6008FAA26 /* Common.swift */,
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		0FF89674203775CE008FAA26 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89675203775DB008FAA26 /* PickerPresenter.swift */,
+				0FF89676203775DB008FAA26 /* PickerWorker.swift */,
+				0FF89677203775DB008FAA26 /* PickerRouter.swift */,
+				0FF89678203775DB008FAA26 /* PickerModels.swift */,
+				0FF89679203775DB008FAA26 /* PickerViewController.swift */,
+				0FF8967A203775DB008FAA26 /* PickerInteractor.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		0FF89681203775E5008FAA26 /* Carrier */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89682203775F3008FAA26 /* CarrierPresenter.swift */,
+				0FF89683203775F3008FAA26 /* CarrierWorker.swift */,
+				0FF89684203775F3008FAA26 /* CarrierRouter.swift */,
+				0FF89685203775F3008FAA26 /* CarrierModels.swift */,
+				0FF89686203775F3008FAA26 /* CarrierViewController.swift */,
+				0FF89687203775F3008FAA26 /* CarrierInteractor.swift */,
+			);
+			path = Carrier;
+			sourceTree = "<group>";
+		};
+		0FF8969020377722008FAA26 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8969120377722008FAA26 /* LoadingView.xib */,
+				0FF8969220377722008FAA26 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		181969B29F496ABFEE6E8694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				435BFF81856C21488732AA32 /* Pods_GetirGotur.framework */,
+				6BBE2E43B1C3FCB945C63AC1 /* Pods_GetirGoturUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0CE35FB3CF708CBED182A8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D95A1CFE2FB915A713E8B8 /* Pods-GetirGotur.debug.xcconfig */,
+				21B2887B259089F2FDBE8452 /* Pods-GetirGotur.release.xcconfig */,
+				474F832BCA23D37A396293D1 /* Pods-GetirGoturUITests.debug.xcconfig */,
+				0CF08FC15DF7A82D4663EF6B /* Pods-GetirGoturUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F55AD2F20376D0500AAA930 /* Build configuration list for PBXNativeTarget "GetirGotur" */;
 			buildPhases = (
+				B0A00991E2BA7D7D7223DCD4 /* [CP] Check Pods Manifest.lock */,
 				0F55AD0E20376D0500AAA930 /* Sources */,
 				0F55AD0F20376D0500AAA930 /* Frameworks */,
 				0F55AD1020376D0500AAA930 /* Resources */,
+				12935FEAB0C42D77F48BA78A /* [CP] Embed Pods Frameworks */,
+				10EF30352AB1EEA0DBFF60E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F55AD3220376D0500AAA930 /* Build configuration list for PBXNativeTarget "GetirGoturUITests" */;
 			buildPhases = (
+				AE3D4C59C183100A476311A6 /* [CP] Check Pods Manifest.lock */,
 				0F55AD2220376D0500AAA930 /* Sources */,
 				0F55AD2320376D0500AAA930 /* Frameworks */,
 				0F55AD2420376D0500AAA930 /* Resources */,
+				B3D5EEFAEA30A89F706AD238 /* [CP] Embed Pods Frameworks */,
+				67009A31C1813DAAA42E2831 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +396,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF8966C20377112008FAA26 /* Main.storyboard in Resources */,
+				0FF8969320377722008FAA26 /* LoadingView.xib in Resources */,
 				0F55AD2020376D0500AAA930 /* LaunchScreen.storyboard in Resources */,
 				0F55AD1D20376D0500AAA930 /* Assets.xcassets in Resources */,
-				0F55AD1B20376D0500AAA930 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +412,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10EF30352AB1EEA0DBFF60E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirGotur/Pods-GetirGotur-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12935FEAB0C42D77F48BA78A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GetirGotur/Pods-GetirGotur-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirGotur/Pods-GetirGotur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67009A31C1813DAAA42E2831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirGoturUITests/Pods-GetirGoturUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE3D4C59C183100A476311A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetirGoturUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A00991E2BA7D7D7223DCD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetirGotur-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D5EEFAEA30A89F706AD238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirGoturUITests/Pods-GetirGoturUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F55AD0E20376D0500AAA930 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF8968A203775F3008FAA26 /* CarrierRouter.swift in Sources */,
 				0F55AD1820376D0500AAA930 /* ViewController.swift in Sources */,
+				0F55AD4520376F8500AAA930 /* LandingViewController.swift in Sources */,
+				0F55AD4620376F8500AAA930 /* LandingInteractor.swift in Sources */,
+				0F55AD4320376F8500AAA930 /* LandingRouter.swift in Sources */,
+				0FF89673203774F6008FAA26 /* Common.swift in Sources */,
+				0FF8968B203775F3008FAA26 /* CarrierModels.swift in Sources */,
+				0F55AD4220376F8500AAA930 /* LandingWorker.swift in Sources */,
+				0F60E5E9203770C50058FC0A /* Extensions.swift in Sources */,
+				0FF89688203775F3008FAA26 /* CarrierPresenter.swift in Sources */,
+				0FF8967D203775DB008FAA26 /* PickerRouter.swift in Sources */,
+				0FF8969420377722008FAA26 /* LoadingView.swift in Sources */,
+				0FF8967C203775DB008FAA26 /* PickerWorker.swift in Sources */,
+				0F55AD4420376F8500AAA930 /* LandingModels.swift in Sources */,
+				0FF8968D203775F3008FAA26 /* CarrierInteractor.swift in Sources */,
+				0FF8967020377491008FAA26 /* AppManager.swift in Sources */,
+				0FF8967B203775DB008FAA26 /* PickerPresenter.swift in Sources */,
+				0FF89680203775DB008FAA26 /* PickerInteractor.swift in Sources */,
+				0FF8968C203775F3008FAA26 /* CarrierViewController.swift in Sources */,
+				0F55AD4120376F8500AAA930 /* LandingPresenter.swift in Sources */,
 				0F55AD1620376D0500AAA930 /* AppDelegate.swift in Sources */,
+				0FF8968F20377703008FAA26 /* BaseViewController.swift in Sources */,
+				0FF89689203775F3008FAA26 /* CarrierWorker.swift in Sources */,
+				0F60E5E6203770C50058FC0A /* Globals.swift in Sources */,
+				0FF8967E203775DB008FAA26 /* PickerModels.swift in Sources */,
+				0FF8967F203775DB008FAA26 /* PickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +575,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F55AD1920376D0500AAA930 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F55AD1A20376D0500AAA930 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F55AD1E20376D0500AAA930 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,9 +695,11 @@
 		};
 		0F55AD3020376D0500AAA930 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D95A1CFE2FB915A713E8B8 /* Pods-GetirGotur.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9ASC95FMJ;
 				INFOPLIST_FILE = GetirGotur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kgteknoloji.GetirGotur;
@@ -365,9 +711,11 @@
 		};
 		0F55AD3120376D0500AAA930 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B2887B259089F2FDBE8452 /* Pods-GetirGotur.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9ASC95FMJ;
 				INFOPLIST_FILE = GetirGotur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kgteknoloji.GetirGotur;
@@ -379,6 +727,7 @@
 		};
 		0F55AD3320376D0500AAA930 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474F832BCA23D37A396293D1 /* Pods-GetirGoturUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +743,7 @@
 		};
 		0F55AD3420376D0500AAA930 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF08FC15DF7A82D4663EF6B /* Pods-GetirGoturUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

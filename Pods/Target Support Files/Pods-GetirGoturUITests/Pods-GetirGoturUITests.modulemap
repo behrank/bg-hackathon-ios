@@ -1,0 +1,6 @@
+framework module Pods_GetirGoturUITests {
+  umbrella header "Pods-GetirGoturUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
