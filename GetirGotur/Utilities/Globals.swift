@@ -3,7 +3,7 @@
 //  Near
 //
 //  Created by Behran Kankul on 3.02.2018.
-//  Copyright © 2018 Be Mobile. All rights reserved.
+//  Copyright © 2018. All rights reserved.
 //
 
 import Foundation
@@ -21,11 +21,13 @@ enum Storyboard : String {
         case empty = ""
         case landing = "landingVC"
         case dashboard = "dashboardVC"
-        
+        case orderedDetail = "orderedDetailVC"
+        case orderDetail = "orderDetailVC"
+
         //Storyboards owning viewcontrollers
         var storyboardName : Storyboard {
             switch self {
-            case .landing,.dashboard:
+            case .landing,.dashboard,.orderDetail,.orderedDetail:
                 return .main
             default: return .main
             }

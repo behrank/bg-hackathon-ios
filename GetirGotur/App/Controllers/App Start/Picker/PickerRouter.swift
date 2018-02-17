@@ -10,7 +10,7 @@ import UIKit
 
 @objc protocol PickerRoutingLogic
 {
-
+    func routeToDashboard()
 }
 
 protocol PickerDataPassing
@@ -24,5 +24,9 @@ class PickerRouter: NSObject, PickerRoutingLogic, PickerDataPassing
     var dataStore: PickerDataStore?
     
     //MARK : Routing
-    
+    func routeToDashboard() {
+        let destination = BaseTabBarController.fromStoryboard(.dashboard)
+        viewController?.navigationController?.pushViewController(destination, animated: true)
+    }
+
 }

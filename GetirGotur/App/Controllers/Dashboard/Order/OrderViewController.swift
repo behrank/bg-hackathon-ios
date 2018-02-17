@@ -20,6 +20,7 @@ class OrderViewController: BaseViewController, OrderDisplayLogic
 
     // MARK: Object lifecycle
   
+    @IBOutlet weak var tableView: UITableView!
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         OrderWorker().doSetup(self)
@@ -54,10 +55,17 @@ extension OrderViewController {
 }
 extension OrderViewController:UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 20
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellPost", for: indexPath)
+        let imgUser = cell.viewWithTag(1) as! UIImageView
+        imgUser.cornerRadius = 14
+        return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        router?.routeToDetail()
+        tableView.deselectRow(at: indexPath, animated: false)
     }
 }

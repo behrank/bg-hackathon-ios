@@ -3,7 +3,7 @@
 //  Near
 //
 //  Created by Behran Kankul on 3.02.2018.
-//  Copyright © 2018 Be Mobile. All rights reserved.
+//  Copyright © 2018. All rights reserved.
 //
 
 import UIKit

@@ -10,7 +10,7 @@ import UIKit
 
 @objc protocol OrderedRoutingLogic
 {
-
+    func routeToDetail()
 }
 
 protocol OrderedDataPassing
@@ -24,5 +24,9 @@ class OrderedRouter: NSObject, OrderedRoutingLogic, OrderedDataPassing
     var dataStore: OrderedDataStore?
     
     //MARK : Routing
-    
+    func routeToDetail(){
+        let destination = OrderedDetailViewController.fromStoryboard(.orderedDetail)
+        viewController?.navigationController?.pushViewController(destination, animated: true)
+        
+    }
 }
