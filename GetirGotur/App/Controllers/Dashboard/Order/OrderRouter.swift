@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import Marshal
 
-@objc protocol OrderRoutingLogic
+protocol OrderRoutingLogic
 {
-    func routeToDetail()
+    func routeToDetail(data:GGDeliverOptions,user:GGUsers)
 }
 
 protocol OrderDataPassing
@@ -24,9 +25,18 @@ class OrderRouter: NSObject, OrderRoutingLogic, OrderDataPassing
     var dataStore: OrderDataStore?
     
     //MARK : Routing
-    func routeToDetail(){
-        let destination = OrderDetailViewController.fromStoryboard(.orderDetail)
-        viewController?.navigationController?.pushViewController(destination, animated: true)
-        
+    func routeToDetail(data:GGDeliverOptions,user:GGUsers) {
+        let detail = OrderDetailViewController.fromStoryboard(.orderDetail)
+        var destination = detail.router!.dataStore!
+        passDataToDetail(data: data,user:user, destination: &destination)
+        viewController?.navigationController?.pushViewController(detail, animated: true)
+    }
+    
+    // MARK: Passing data
+    
+    func passDataToDetail(data: GGDeliverOptions,user:GGUsers ,destination: inout OrderDetailDataStore)
+    {
+        destination.postInfo = data
+        destination.userInfo = user
     }
 }

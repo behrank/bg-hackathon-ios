@@ -7,20 +7,28 @@
 //
 
 import UIKit
+import Marshal
 
 protocol OrderDetailBusinessLogic
 {
-
+    func showViewDetails()
 }
 
 protocol OrderDetailDataStore
 {
-
+    var postInfo:GGDeliverOptions? {get set}
+    var userInfo:GGUsers? {get set}
 }
 
 class OrderDetailInteractor: OrderDetailBusinessLogic, OrderDetailDataStore
 {
+    var postInfo: GGDeliverOptions?
+    var userInfo: GGUsers?
     var presenter: OrderDetailPresentationLogic?
     var worker: OrderDetailWorker?
-  
+    
+    func showViewDetails()
+    {
+        presenter?.updateUI(postInfo: postInfo!, userInfo: userInfo!)
+    }
 }

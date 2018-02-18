@@ -84,7 +84,10 @@ extension OrderedViewController:UITableViewDelegate,UITableViewDataSource {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        router?.routeToDetail()
+        let cellData = DataManager.shared.posts[indexPath.row]
+        let userInfo = DataManager.shared.users.filter({$0.userId == cellData.senderUserId}).first!
+        
+        router?.routeToDetail(data:cellData,user: userInfo)
         tableView.deselectRow(at: indexPath, animated: false)
 
     }

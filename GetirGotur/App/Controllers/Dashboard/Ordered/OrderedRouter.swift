@@ -8,9 +8,9 @@
 
 import UIKit
 
-@objc protocol OrderedRoutingLogic
+protocol OrderedRoutingLogic
 {
-    func routeToDetail()
+    func routeToDetail(data:GGDeliveryRequests,user:GGUsers)
 }
 
 protocol OrderedDataPassing
@@ -24,9 +24,19 @@ class OrderedRouter: NSObject, OrderedRoutingLogic, OrderedDataPassing
     var dataStore: OrderedDataStore?
     
     //MARK : Routing
-    func routeToDetail(){
-        let destination = OrderedDetailViewController.fromStoryboard(.orderedDetail)
-        viewController?.navigationController?.pushViewController(destination, animated: true)
-        
+    //MARK : Routing
+    func routeToDetail(data:GGDeliveryRequests,user:GGUsers) {
+        let detail = OrderedDetailViewController.fromStoryboard(.orderedDetail)
+        var destination = detail.router!.dataStore!
+        passDataToDetail(data: data,user:user, destination: &destination)
+        viewController?.navigationController?.pushViewController(detail, animated: true)
+    }
+    
+    // MARK: Passing data
+    
+    func passDataToDetail(data: GGDeliveryRequests,user:GGUsers ,destination: inout OrderedDetailDataStore)
+    {
+        destination.postInfo = data
+        destination.userInfo = user
     }
 }

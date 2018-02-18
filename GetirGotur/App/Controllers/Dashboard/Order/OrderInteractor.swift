@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Marshal
 
 protocol OrderBusinessLogic
 {
@@ -15,11 +16,10 @@ protocol OrderBusinessLogic
 
 protocol OrderDataStore
 {
-
 }
 
 class OrderInteractor: OrderBusinessLogic, OrderDataStore
-{
+{    
     var presenter: OrderPresentationLogic?
     var worker: OrderWorker?
   

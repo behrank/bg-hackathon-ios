@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import Marshal
 
 protocol OrderDetailPresentationLogic
 {
-    
+    func updateUI(postInfo:GGDeliverOptions,userInfo:GGUsers)
 }
 
 class OrderDetailPresenter: OrderDetailPresentationLogic
 {
     weak var viewController: OrderDetailDisplayLogic?
     
+    func updateUI(postInfo:GGDeliverOptions,userInfo:GGUsers)
+    {
+        viewController?.prepareUI(post:postInfo,user:userInfo)
+    }
 }

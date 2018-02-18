@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import MapKit
 
 protocol OrderDetailDisplayLogic: class
 {
-
+    func prepareUI(post:GGDeliverOptions,user:GGUsers)
 }
 
 class OrderDetailViewController: BaseViewController, OrderDetailDisplayLogic
@@ -18,6 +19,17 @@ class OrderDetailViewController: BaseViewController, OrderDetailDisplayLogic
     var interactor: OrderDetailBusinessLogic?
     var router: (NSObjectProtocol & OrderDetailRoutingLogic & OrderDetailDataPassing)?
 
+    @IBOutlet weak var imgUser: UIImageView!
+    @IBOutlet weak var lblUsername: UILabel!
+
+    @IBOutlet weak var lblAdditionalInfo: UILabel!
+    @IBOutlet weak var carryAmount: UILabel!
+    
+    @IBOutlet weak var lblCountry: UILabel!
+    
+    @IBOutlet weak var date1: UILabel!
+    @IBOutlet weak var date2: UILabel!
+    
     // MARK: Object lifecycle
   
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -46,9 +58,22 @@ class OrderDetailViewController: BaseViewController, OrderDetailDisplayLogic
   
     override func viewDidLoad() {
         super.viewDidLoad()
+        interactor?.showViewDetails()
+
+    }
+    @IBAction func placeAnOrder(_ sender: Any) {
+        
     }
 }
 
 extension OrderDetailViewController {
-    
+    func prepareUI(post:GGDeliverOptions,user:GGUsers) {
+        
+        imgUser.image = UIImage(named:user.avatarImg!)
+        lblUsername.text = user.firstName! + " " + user.lastName!
+        date1.text = post.selectedDate!
+        date2.text = post.selectedDate2!
+        carryAmount.text = post.weight! + " Kg"
+        lblCountry.text = countries[post.targetCountry!]
+    }
 }

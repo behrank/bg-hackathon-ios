@@ -80,7 +80,10 @@ extension OrderViewController:UITableViewDelegate,UITableViewDataSource {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        router?.routeToDetail()
+        let cellData = DataManager.shared.deliveries[indexPath.row]
+        let userInfo = DataManager.shared.users.filter({$0.userId == cellData.senderUserId}).first!
+        print("did select")
+        router?.routeToDetail(data:cellData,user: userInfo)
         tableView.deselectRow(at: indexPath, animated: false)
     }
 }

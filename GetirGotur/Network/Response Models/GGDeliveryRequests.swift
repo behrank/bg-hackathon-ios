@@ -34,10 +34,10 @@ public struct GGDeliveryRequests: Unmarshaling {
   public var requestType: Int?
   public var address: String?
   public var cargoType: Int?
-  public var lat: Float?
+  public var lat: Double?
   public var priceType: Int?
   public var requestTitle: String?
-  public var lon: Float?
+  public var lon: Double?
   public var requestedCountryId: Int?
   public var weight: String?
   public var senderUserId: Int?

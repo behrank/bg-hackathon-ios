@@ -24,6 +24,18 @@
 		0F776E79203968460044306C /* GGUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E75203968460044306C /* GGUsers.swift */; };
 		0F776E7A203968460044306C /* GGDeliverOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E76203968460044306C /* GGDeliverOptions.swift */; };
 		0F776E7B203968460044306C /* GGResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E77203968460044306C /* GGResponseModel.swift */; };
+		0F776E83203987230044306C /* NotificationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E7D203987230044306C /* NotificationsPresenter.swift */; };
+		0F776E84203987230044306C /* NotificationsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E7E203987230044306C /* NotificationsWorker.swift */; };
+		0F776E85203987230044306C /* NotificationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E7F203987230044306C /* NotificationsRouter.swift */; };
+		0F776E86203987230044306C /* NotificationsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E80203987230044306C /* NotificationsModels.swift */; };
+		0F776E87203987230044306C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E81203987230044306C /* NotificationsViewController.swift */; };
+		0F776E88203987230044306C /* NotificationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E82203987230044306C /* NotificationsInteractor.swift */; };
+		0F776E90203988890044306C /* MyOrdersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8A203988890044306C /* MyOrdersPresenter.swift */; };
+		0F776E91203988890044306C /* MyOrdersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8B203988890044306C /* MyOrdersWorker.swift */; };
+		0F776E92203988890044306C /* MyOrdersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8C203988890044306C /* MyOrdersRouter.swift */; };
+		0F776E93203988890044306C /* MyOrdersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8D203988890044306C /* MyOrdersModels.swift */; };
+		0F776E94203988890044306C /* MyOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8E203988890044306C /* MyOrdersViewController.swift */; };
+		0F776E95203988890044306C /* MyOrdersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8F203988890044306C /* MyOrdersInteractor.swift */; };
 		0FE416D920395C7D00D280DD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FE416D820395C7C00D280DD /* data.json */; };
 		0FE416E220395D2A00D280DD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE416E120395D2A00D280DD /* DataManager.swift */; };
 		0FEC8D1D20377A7000F21F8B /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D1C20377A7000F21F8B /* BaseTabBarController.swift */; };
@@ -118,6 +130,18 @@
 		0F776E75203968460044306C /* GGUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGUsers.swift; sourceTree = "<group>"; };
 		0F776E76203968460044306C /* GGDeliverOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGDeliverOptions.swift; sourceTree = "<group>"; };
 		0F776E77203968460044306C /* GGResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGResponseModel.swift; sourceTree = "<group>"; };
+		0F776E7D203987230044306C /* NotificationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPresenter.swift; sourceTree = "<group>"; };
+		0F776E7E203987230044306C /* NotificationsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsWorker.swift; sourceTree = "<group>"; };
+		0F776E7F203987230044306C /* NotificationsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRouter.swift; sourceTree = "<group>"; };
+		0F776E80203987230044306C /* NotificationsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsModels.swift; sourceTree = "<group>"; };
+		0F776E81203987230044306C /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		0F776E82203987230044306C /* NotificationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsInteractor.swift; sourceTree = "<group>"; };
+		0F776E8A203988890044306C /* MyOrdersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersPresenter.swift; sourceTree = "<group>"; };
+		0F776E8B203988890044306C /* MyOrdersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersWorker.swift; sourceTree = "<group>"; };
+		0F776E8C203988890044306C /* MyOrdersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersRouter.swift; sourceTree = "<group>"; };
+		0F776E8D203988890044306C /* MyOrdersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersModels.swift; sourceTree = "<group>"; };
+		0F776E8E203988890044306C /* MyOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersViewController.swift; sourceTree = "<group>"; };
+		0F776E8F203988890044306C /* MyOrdersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersInteractor.swift; sourceTree = "<group>"; };
 		0FE416D820395C7C00D280DD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		0FE416E120395D2A00D280DD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0FEC8D1C20377A7000F21F8B /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
@@ -321,6 +345,32 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		0F776E7C203987110044306C /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				0F776E7D203987230044306C /* NotificationsPresenter.swift */,
+				0F776E7E203987230044306C /* NotificationsWorker.swift */,
+				0F776E7F203987230044306C /* NotificationsRouter.swift */,
+				0F776E80203987230044306C /* NotificationsModels.swift */,
+				0F776E81203987230044306C /* NotificationsViewController.swift */,
+				0F776E82203987230044306C /* NotificationsInteractor.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		0F776E89203988760044306C /* My Orders */ = {
+			isa = PBXGroup;
+			children = (
+				0F776E8A203988890044306C /* MyOrdersPresenter.swift */,
+				0F776E8B203988890044306C /* MyOrdersWorker.swift */,
+				0F776E8C203988890044306C /* MyOrdersRouter.swift */,
+				0F776E8D203988890044306C /* MyOrdersModels.swift */,
+				0F776E8E203988890044306C /* MyOrdersViewController.swift */,
+				0F776E8F203988890044306C /* MyOrdersInteractor.swift */,
+			);
+			path = "My Orders";
+			sourceTree = "<group>";
+		};
 		0FE416D52039581A00D280DD /* Response Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +393,8 @@
 		0FEC8D1E20377B0F00F21F8B /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				0F776E89203988760044306C /* My Orders */,
+				0F776E7C203987110044306C /* Notifications */,
 				0FEC8D4C2037995800F21F8B /* Profile */,
 				0FEC8D1F20377B2600F21F8B /* Ordered */,
 				0FEC8D2C20377B3800F21F8B /* Order */,
@@ -746,8 +798,10 @@
 				0F55AD1820376D0500AAA930 /* ViewController.swift in Sources */,
 				0F55AD4520376F8500AAA930 /* LandingViewController.swift in Sources */,
 				0F55AD4620376F8500AAA930 /* LandingInteractor.swift in Sources */,
+				0F776E88203987230044306C /* NotificationsInteractor.swift in Sources */,
 				0FEC8D4320377B8E00F21F8B /* OrderedViewController.swift in Sources */,
 				0FEC8D6220379ADB00F21F8B /* OrderedDetailRouter.swift in Sources */,
+				0F776E91203988890044306C /* MyOrdersWorker.swift in Sources */,
 				0FEC8D3620377B5500F21F8B /* OrderModels.swift in Sources */,
 				0F55AD4320376F8500AAA930 /* LandingRouter.swift in Sources */,
 				0F776E79203968460044306C /* GGUsers.swift in Sources */,
@@ -759,6 +813,7 @@
 				0FF8968B203775F3008FAA26 /* CarrierModels.swift in Sources */,
 				0FEC8D6120379ADB00F21F8B /* OrderedDetailWorker.swift in Sources */,
 				0F55AD4220376F8500AAA930 /* LandingWorker.swift in Sources */,
+				0F776E93203988890044306C /* MyOrdersModels.swift in Sources */,
 				0F60E5E9203770C50058FC0A /* Extensions.swift in Sources */,
 				0FF89688203775F3008FAA26 /* CarrierPresenter.swift in Sources */,
 				0FF8967D203775DB008FAA26 /* PickerRouter.swift in Sources */,
@@ -767,12 +822,14 @@
 				0FEC8D1D20377A7000F21F8B /* BaseTabBarController.swift in Sources */,
 				0FEC8D582037996600F21F8B /* ProfileInteractor.swift in Sources */,
 				0FEC8D542037996600F21F8B /* ProfileWorker.swift in Sources */,
+				0F776E95203988890044306C /* MyOrdersInteractor.swift in Sources */,
 				0FF8969420377722008FAA26 /* LoadingView.swift in Sources */,
 				0FF8967C203775DB008FAA26 /* PickerWorker.swift in Sources */,
 				0F55AD4420376F8500AAA930 /* LandingModels.swift in Sources */,
 				0FFEF99F2037AABB00B5A4D5 /* NetworkProvider.swift in Sources */,
 				0FEC8D3520377B5500F21F8B /* OrderRouter.swift in Sources */,
 				0FEC8D3F20377B8E00F21F8B /* OrderedPresenter.swift in Sources */,
+				0F776E86203987230044306C /* NotificationsModels.swift in Sources */,
 				0FEC8D6020379ADB00F21F8B /* OrderedDetailPresenter.swift in Sources */,
 				0FF8968D203775F3008FAA26 /* CarrierInteractor.swift in Sources */,
 				0FEC8D6E20379B1100F21F8B /* OrderDetailWorker.swift in Sources */,
@@ -786,6 +843,7 @@
 				0F776E7B203968460044306C /* GGResponseModel.swift in Sources */,
 				0FEC8D6D20379B1100F21F8B /* OrderDetailPresenter.swift in Sources */,
 				0F55AD4120376F8500AAA930 /* LandingPresenter.swift in Sources */,
+				0F776E85203987230044306C /* NotificationsRouter.swift in Sources */,
 				0FEC8D7120379B1100F21F8B /* OrderDetailViewController.swift in Sources */,
 				0FEC8D7020379B1100F21F8B /* OrderDetailModels.swift in Sources */,
 				0F55AD1620376D0500AAA930 /* AppDelegate.swift in Sources */,
@@ -797,16 +855,22 @@
 				0F776E78203968460044306C /* GGDeliveryRequests.swift in Sources */,
 				0FEC8D4120377B8E00F21F8B /* OrderedRouter.swift in Sources */,
 				0FF89689203775F3008FAA26 /* CarrierWorker.swift in Sources */,
+				0F776E87203987230044306C /* NotificationsViewController.swift in Sources */,
+				0F776E84203987230044306C /* NotificationsWorker.swift in Sources */,
+				0F776E83203987230044306C /* NotificationsPresenter.swift in Sources */,
 				0FFEF99D2037AA1A00B5A4D5 /* AppAPI.swift in Sources */,
 				0FEC8D572037996600F21F8B /* ProfileViewController.swift in Sources */,
 				0F60E5E6203770C50058FC0A /* Globals.swift in Sources */,
+				0F776E94203988890044306C /* MyOrdersViewController.swift in Sources */,
 				0FF8967E203775DB008FAA26 /* PickerModels.swift in Sources */,
 				0FEC8D4020377B8E00F21F8B /* OrderedWorker.swift in Sources */,
 				0FEC8D532037996600F21F8B /* ProfilePresenter.swift in Sources */,
+				0F776E90203988890044306C /* MyOrdersPresenter.swift in Sources */,
 				0FF8967F203775DB008FAA26 /* PickerViewController.swift in Sources */,
 				0FEC8D3420377B5500F21F8B /* OrderWorker.swift in Sources */,
 				0FEC8D7220379B1100F21F8B /* OrderDetailInteractor.swift in Sources */,
 				0FEC8D3320377B5500F21F8B /* OrderPresenter.swift in Sources */,
+				0F776E92203988890044306C /* MyOrdersRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
