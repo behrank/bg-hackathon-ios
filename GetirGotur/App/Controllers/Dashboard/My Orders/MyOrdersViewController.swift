@@ -111,10 +111,7 @@ extension MyOrdersViewController:UITabBarDelegate,UITableViewDataSource {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cellData = DataManager.shared.myorders[indexPath.row]
-        let userInfo = DataManager.shared.users.filter({$0.userId == cellData.senderUserId}).first!
-        print("did select")
-        //router?.routeToDetail(data:cellData,user: userInfo)
+
         tableView.deselectRow(at: indexPath, animated: false)
     }
 }
