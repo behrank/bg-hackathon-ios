@@ -21,4 +21,8 @@ class MyOrdersWorker
         router.viewController = viewController
         router.dataStore = interactor
     }
+    func prepareData() -> MyOrders.DataModels.ViewModel{
+        let data = MyOrders.DataModels.ViewModel(data:DataManager.shared.myorders)
+        return data
+    }
 }

@@ -6,21 +6,22 @@
 //
 
 import Foundation
-import Marshal
-
+import Marshal  
 public struct GGResponseModel: Unmarshaling {
 
   // MARK: Declaration for string constants to be used to decode and also serialize.
   private struct SerializationKeys {
-    static let deliverOptions = "deliverOptions"
+    static let myRequests = "myRequests"
     static let deliveryRequests = "deliveryRequests"
     static let users = "users"
+    static let deliverOptions = "deliverOptions"
   }
 
   // MARK: Properties
-  public var deliverOptions: [GGDeliverOptions]?
+  public var myRequests: [GGMyRequests]?
   public var deliveryRequests: [GGDeliveryRequests]?
   public var users: [GGUsers]?
+  public var deliverOptions: [GGDeliverOptions]?
 
   // MARK: Marshal Initializers
 
@@ -28,9 +29,10 @@ public struct GGResponseModel: Unmarshaling {
   ///
   /// - parameter object: A mapping from ObjectMapper
   public init(object: MarshaledObject) {
-    deliverOptions = try? object.value(for: SerializationKeys.deliverOptions)
+    myRequests = try? object.value(for: SerializationKeys.myRequests)
     deliveryRequests = try? object.value(for: SerializationKeys.deliveryRequests)
     users = try? object.value(for: SerializationKeys.users)
+    deliverOptions = try? object.value(for: SerializationKeys.deliverOptions)
   }
 
   /// Generates description of the object in the form of a NSDictionary.
@@ -38,9 +40,10 @@ public struct GGResponseModel: Unmarshaling {
   /// - returns: A Key value pair containing all valid values in the object.
   public func dictionaryRepresentation() -> [String: Any] {
     var dictionary: [String: Any] = [:]
-    if let value = deliverOptions { dictionary[SerializationKeys.deliverOptions] = value.map { $0.dictionaryRepresentation() } }
+    if let value = myRequests { dictionary[SerializationKeys.myRequests] = value.map { $0.dictionaryRepresentation() } }
     if let value = deliveryRequests { dictionary[SerializationKeys.deliveryRequests] = value.map { $0.dictionaryRepresentation() } }
     if let value = users { dictionary[SerializationKeys.users] = value.map { $0.dictionaryRepresentation() } }
+    if let value = deliverOptions { dictionary[SerializationKeys.deliverOptions] = value.map { $0.dictionaryRepresentation() } }
     return dictionary
   }
 

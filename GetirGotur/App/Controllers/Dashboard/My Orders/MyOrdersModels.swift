@@ -12,7 +12,7 @@ enum MyOrders
 {
     // MARK: Use cases
   
-    enum Something {
+    enum DataModels {
         struct Request
         {
         }
@@ -21,6 +21,10 @@ enum MyOrders
         }
         struct ViewModel
         {
+            var data:[GGMyRequests]?
+            init(data:[GGMyRequests]){
+                self.data = data
+            }
         }
     }
 }

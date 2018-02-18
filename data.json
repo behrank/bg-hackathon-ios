@@ -1,4 +1,42 @@
 {
+    "myRequests":[
+                  {
+                  "requestId":1,
+                  "senderUserId":5,
+                  "targetCountry":1,
+                  "selectedDate":"15.02.2018",
+                  "weight":"3",
+                  "requestTitle":"Playstation 4",
+                  "requestPrice":"20",
+                  "requestType":4,
+                  "priceType":1,
+                  "status":1
+                  },
+                  {
+                  "requestId":1,
+                  "senderUserId":5,
+                  "targetCountry":1,
+                  "selectedDate":"15.02.2018",
+                  "weight":"3",
+                  "requestTitle":"iphone 7 Plus",
+                  "requestPrice":"700",
+                  "requestType":4,
+                  "priceType":1,
+                  "status":2
+                  },
+                  {
+                  "requestId":1,
+                  "senderUserId":5,
+                  "targetCountry":1,
+                  "selectedDate":"10.01.2018",
+                  "weight":"1",
+                  "requestTitle":"C# Unleashed",
+                  "requestPrice":"20",
+                  "requestType":4,
+                  "priceType":1,
+                  "status":3
+                  }
+                  ],
     "deliverOptions":[
                       {
                       "requestId":1,
@@ -6,8 +44,8 @@
                       "targetCountry":1,
                       "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
                       "availableCategories":[1,2,3],
-                      "selectedDate":"15.02.2018",
-                      "selectedDate2":"24.02.2018",
+                      "selectedDate":"15.02.2018 00:00:00",
+                      "selectedDate2":"24.02.2018 00:00:00",
                       "weight":"3"
                       },
                       {
@@ -16,8 +54,8 @@
                       "targetCountry":2,
                       "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
                       "availableCategories":[4],
-                      "selectedDate":"15.02.2018",
-                      "selectedDate2":"24.02.2018",
+                      "selectedDate":"15.02.2018 00:00:00",
+                      "selectedDate2":"24.02.2018 00:00:00",
                       "weight":"2"
                       },
                       {
@@ -26,8 +64,8 @@
                       "targetCountry":3,
                       "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
                       "availableCategories":[5],
-                      "selectedDate":"15.02.2018",
-                      "selectedDate2":"24.02.2018",
+                      "selectedDate":"15.02.2018 00:00:00",
+                      "selectedDate2":"24.02.2018 00:00:00",
                       "weight":"4"
                       },
                       {
@@ -36,8 +74,8 @@
                       "targetCountry":4,
                       "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
                       "availableCategories":[1,2],
-                      "selectedDate":"15.02.2018",
-                      "selectedDate2":"24.02.2018",
+                      "selectedDate":"15.02.2018 00:00:00",
+                      "selectedDate2":"24.02.2018 00:00:00",
                       "weight":"5"
                       },
                       {
@@ -46,8 +84,8 @@
                       "targetCountry":5,
                       "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
                       "availableCategories":[4,5],
-                      "selectedDate":"15.02.2018",
-                      "selectedDate2":"24.02.2018",
+                      "selectedDate":"15.02.2018 00:00:00",
+                      "selectedDate2":"24.02.2018 00:00:00",
                       "weight":"3"
                       },
                       {
@@ -56,8 +94,8 @@
                       "targetCountry":6,
                       "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
                       "availableCategories":[1],
-                      "selectedDate":"15.02.2018",
-                      "selectedDate2":"24.02.2018",
+                      "selectedDate":"15.02.2018 00:00:00",
+                      "selectedDate2":"24.02.2018 00:00:00",
                       "weight":"2"
                       }
                       ],
@@ -70,8 +108,8 @@
                          "requestType":1,
                          "priceType":1,
                          "requestedCountryId":1,
-                         "selectedDate":"15.02.2018",
-                         "selectedDate2":"24.02.2018",
+                         "selectedDate":"15.02.2018 00:00:00",
+                         "selectedDate2":"24.02.2018 00:00:00",
                          "weight":"8",
                          "lat":40.986086,
                          "lon":29.022666,
@@ -86,9 +124,9 @@
                          "requestType":1,
                          "priceType":1,
                          "requestedCountryId":3,
-                         "selectedDate":"15.02.2018",
-                         "selectedDate2":"24.02.2018",
-                         "weight":"2",
+                         "selectedDate":"15.02.2018 00:00:00",
+                         "selectedDate2":"24.02.2018 00:00:00",
+                         "weight":"8",
                          "lat":40.986086,
                          "lon":29.022666,
                          "address":"Tuğlacı Emin Bey sokak Moda Kadiköy/İstanbul",
@@ -102,9 +140,9 @@
                          "requestType":3,
                          "priceType":2,
                          "requestedCountryId":2,
-                         "selectedDate":"15.02.2018",
-                         "selectedDate2":"24.02.2018",
-                         "weight":"1"
+                         "selectedDate":"15.02.2018 00:00:00",
+                         "selectedDate2":"24.02.2018 00:00:00",
+                         "weight":"8"
                          },
                          {
                          "requestId":4,
@@ -114,9 +152,9 @@
                          "requestType":4,
                          "priceType":1,
                          "requestedCountryId":1,
-                         "selectedDate":"15.02.2018",
-                         "selectedDate2":"24.02.2018",
-                         "weight":"1",
+                         "selectedDate":"15.02.2018 00:00:00",
+                         "selectedDate2":"24.02.2018 00:00:00",
+                         "weight":"8",
                          "lat":40.986086,
                          "lon":29.022666,
                          "address":"Tuğlacı Emin Bey sokak Moda Kadiköy/İstanbul",
@@ -206,7 +244,7 @@
              "userId":7,
              "first_name":"Mesut",
              "last_name":"Çevik",
-             "avatar_img":"013-boy-11",
+             "avatar_img":"003-boy-14",
              "deliveryRequestCount":5,
              "deliveryCompletedCount":3,
              "deliveredRequestCount":0,

@@ -23,7 +23,6 @@
 		0F776E78203968460044306C /* GGDeliveryRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E74203968460044306C /* GGDeliveryRequests.swift */; };
 		0F776E79203968460044306C /* GGUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E75203968460044306C /* GGUsers.swift */; };
 		0F776E7A203968460044306C /* GGDeliverOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E76203968460044306C /* GGDeliverOptions.swift */; };
-		0F776E7B203968460044306C /* GGResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E77203968460044306C /* GGResponseModel.swift */; };
 		0F776E83203987230044306C /* NotificationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E7D203987230044306C /* NotificationsPresenter.swift */; };
 		0F776E84203987230044306C /* NotificationsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E7E203987230044306C /* NotificationsWorker.swift */; };
 		0F776E85203987230044306C /* NotificationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E7F203987230044306C /* NotificationsRouter.swift */; };
@@ -36,6 +35,8 @@
 		0F776E93203988890044306C /* MyOrdersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8D203988890044306C /* MyOrdersModels.swift */; };
 		0F776E94203988890044306C /* MyOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8E203988890044306C /* MyOrdersViewController.swift */; };
 		0F776E95203988890044306C /* MyOrdersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E8F203988890044306C /* MyOrdersInteractor.swift */; };
+		0F776E9720398E100044306C /* GGMyRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E9620398E100044306C /* GGMyRequests.swift */; };
+		0F776E9920398E5E0044306C /* GGResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F776E9820398E5E0044306C /* GGResponseModel.swift */; };
 		0FE416D920395C7D00D280DD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FE416D820395C7C00D280DD /* data.json */; };
 		0FE416E220395D2A00D280DD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE416E120395D2A00D280DD /* DataManager.swift */; };
 		0FEC8D1D20377A7000F21F8B /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC8D1C20377A7000F21F8B /* BaseTabBarController.swift */; };
@@ -129,7 +130,6 @@
 		0F776E74203968460044306C /* GGDeliveryRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGDeliveryRequests.swift; sourceTree = "<group>"; };
 		0F776E75203968460044306C /* GGUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGUsers.swift; sourceTree = "<group>"; };
 		0F776E76203968460044306C /* GGDeliverOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGDeliverOptions.swift; sourceTree = "<group>"; };
-		0F776E77203968460044306C /* GGResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGResponseModel.swift; sourceTree = "<group>"; };
 		0F776E7D203987230044306C /* NotificationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPresenter.swift; sourceTree = "<group>"; };
 		0F776E7E203987230044306C /* NotificationsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsWorker.swift; sourceTree = "<group>"; };
 		0F776E7F203987230044306C /* NotificationsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRouter.swift; sourceTree = "<group>"; };
@@ -142,6 +142,8 @@
 		0F776E8D203988890044306C /* MyOrdersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersModels.swift; sourceTree = "<group>"; };
 		0F776E8E203988890044306C /* MyOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersViewController.swift; sourceTree = "<group>"; };
 		0F776E8F203988890044306C /* MyOrdersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersInteractor.swift; sourceTree = "<group>"; };
+		0F776E9620398E100044306C /* GGMyRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGMyRequests.swift; sourceTree = "<group>"; };
+		0F776E9820398E5E0044306C /* GGResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGResponseModel.swift; sourceTree = "<group>"; };
 		0FE416D820395C7C00D280DD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		0FE416E120395D2A00D280DD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0FEC8D1C20377A7000F21F8B /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
@@ -374,9 +376,10 @@
 		0FE416D52039581A00D280DD /* Response Models */ = {
 			isa = PBXGroup;
 			children = (
+				0F776E9820398E5E0044306C /* GGResponseModel.swift */,
+				0F776E9620398E100044306C /* GGMyRequests.swift */,
 				0F776E76203968460044306C /* GGDeliverOptions.swift */,
 				0F776E74203968460044306C /* GGDeliveryRequests.swift */,
-				0F776E77203968460044306C /* GGResponseModel.swift */,
 				0F776E75203968460044306C /* GGUsers.swift */,
 			);
 			path = "Response Models";
@@ -831,6 +834,7 @@
 				0FEC8D3F20377B8E00F21F8B /* OrderedPresenter.swift in Sources */,
 				0F776E86203987230044306C /* NotificationsModels.swift in Sources */,
 				0FEC8D6020379ADB00F21F8B /* OrderedDetailPresenter.swift in Sources */,
+				0F776E9720398E100044306C /* GGMyRequests.swift in Sources */,
 				0FF8968D203775F3008FAA26 /* CarrierInteractor.swift in Sources */,
 				0FEC8D6E20379B1100F21F8B /* OrderDetailWorker.swift in Sources */,
 				0FF8967020377491008FAA26 /* AppManager.swift in Sources */,
@@ -840,7 +844,6 @@
 				0FF8968C203775F3008FAA26 /* CarrierViewController.swift in Sources */,
 				0FEC8D6420379ADB00F21F8B /* OrderedDetailViewController.swift in Sources */,
 				0FEC8D4B203781C500F21F8B /* TSTitleView.swift in Sources */,
-				0F776E7B203968460044306C /* GGResponseModel.swift in Sources */,
 				0FEC8D6D20379B1100F21F8B /* OrderDetailPresenter.swift in Sources */,
 				0F55AD4120376F8500AAA930 /* LandingPresenter.swift in Sources */,
 				0F776E85203987230044306C /* NotificationsRouter.swift in Sources */,
@@ -869,6 +872,7 @@
 				0FF8967F203775DB008FAA26 /* PickerViewController.swift in Sources */,
 				0FEC8D3420377B5500F21F8B /* OrderWorker.swift in Sources */,
 				0FEC8D7220379B1100F21F8B /* OrderDetailInteractor.swift in Sources */,
+				0F776E9920398E5E0044306C /* GGResponseModel.swift in Sources */,
 				0FEC8D3320377B5500F21F8B /* OrderPresenter.swift in Sources */,
 				0F776E92203988890044306C /* MyOrdersRouter.swift in Sources */,
 			);

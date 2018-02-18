@@ -460,6 +460,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="UYQ-XV-1wz">
                         <barButtonItem key="backBarButtonItem" title=" " id="bj1-0e-qy3"/>
+                        <barButtonItem key="rightBarButtonItem" image="arrows" id="2NQ-es-lad">
+                            <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="qWT-gx-gOe" id="wnd-0E-bV4"/>
@@ -628,6 +631,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="64j-zm-BoR">
                         <barButtonItem key="backBarButtonItem" title=" " id="F0Z-L7-eIa"/>
+                        <barButtonItem key="rightBarButtonItem" image="arrows" id="YqX-2g-pDk">
+                            <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="7Lq-oc-WLK" id="3ca-GX-At3"/>
@@ -1306,14 +1312,49 @@
                     <view key="view" contentMode="scaleToFill" id="e0I-hT-r4g">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="027-hipster" translatesAutoresizingMaskIntoConstraints="NO" id="1x3-Pa-3mo">
+                                <rect key="frame" x="155" y="128" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="COJ-h5-0e4"/>
+                                    <constraint firstAttribute="height" constant="64" id="aK2-Md-uo5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Behran Kankul" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="986-Fx-LeX">
+                                <rect key="frame" x="87" y="240" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="xRG-3V-ibA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSi-y6-VRX">
+                                <rect key="frame" x="87" y="286" width="200" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="wIy-zB-Q6c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1x3-Pa-3mo" firstAttribute="centerX" secondItem="tHW-Hn-eNF" secondAttribute="centerX" id="MZL-D8-Tm2"/>
+                            <constraint firstItem="aSi-y6-VRX" firstAttribute="top" secondItem="986-Fx-LeX" secondAttribute="bottom" constant="16" id="Ouv-As-sTS"/>
+                            <constraint firstItem="986-Fx-LeX" firstAttribute="centerX" secondItem="1x3-Pa-3mo" secondAttribute="centerX" id="SrN-n7-8u6"/>
+                            <constraint firstItem="1x3-Pa-3mo" firstAttribute="top" secondItem="tHW-Hn-eNF" secondAttribute="top" constant="64" id="aMr-8h-gSi"/>
+                            <constraint firstItem="aSi-y6-VRX" firstAttribute="centerX" secondItem="986-Fx-LeX" secondAttribute="centerX" id="maU-jw-oTZ"/>
+                            <constraint firstItem="986-Fx-LeX" firstAttribute="top" secondItem="1x3-Pa-3mo" secondAttribute="bottom" constant="48" id="wAh-x7-nUh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tHW-Hn-eNF"/>
                     </view>
                     <navigationItem key="navigationItem" id="d6T-tl-cuX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MsB-PT-Mfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2516" y="2971"/>
+            <point key="canvasLocation" x="2560.8000000000002" y="3232.5337331334335"/>
         </scene>
         <!--Profil-->
         <scene sceneID="Nzx-a9-kas">
@@ -1811,7 +1852,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7AO-6v-NtV"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Tlm-Hc-Mf7"/>
+                    <navigationItem key="navigationItem" id="Tlm-Hc-Mf7">
+                        <barButtonItem key="rightBarButtonItem" image="arrows" id="k6i-Oh-TOQ">
+                            <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0a-My-b5H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1911,7 +1956,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beklemede" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTA-I4-za7">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beklemede" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTA-I4-za7">
                                                     <rect key="frame" x="263" y="23" width="100" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="ivU-Le-6pZ"/>
@@ -1939,7 +1984,7 @@
                                                     <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almanya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8X6-MN-MtH">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almanya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8X6-MN-MtH">
                                                     <rect key="frame" x="55" y="107" width="56" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="wKt-EY-0bf"/>
@@ -1988,7 +2033,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Ya-t2-Y7i"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XTN-FZ-Ink"/>
+                    <navigationItem key="navigationItem" id="XTN-FZ-Ink">
+                        <barButtonItem key="rightBarButtonItem" image="arrows" id="zMp-d5-JLr">
+                            <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="PNr-wh-xOc" id="jpm-BB-bjx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jxh-oY-1en" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1996,6 +2048,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="027-hipster" width="512" height="512"/>
+        <image name="arrows" width="24" height="24"/>
         <image name="basket" width="24" height="24"/>
         <image name="boy-15" width="512" height="512"/>
         <image name="cash" width="24" height="24"/>

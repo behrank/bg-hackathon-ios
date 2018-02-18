@@ -17,15 +17,15 @@ class DataManager {
     var users = [GGUsers]()
     var posts = [GGDeliveryRequests]()
     var deliveries = [GGDeliverOptions]()
-    
+    var myorders = [GGMyRequests]()
     fileprivate init() {
         setupFakeData()
     }
     
     func printFake(){
-        print(users)
-        print(posts)
-        print(deliveries)
+//        print(users)
+//        print(posts)
+//        print(deliveries)
     }
     
     fileprivate func setupFakeData() {
@@ -37,6 +37,7 @@ class DataManager {
         users = parsedModel.users!
         posts = parsedModel.deliveryRequests!
         deliveries = parsedModel.deliverOptions!
+        myorders = parsedModel.myRequests!
     }
     
     fileprivate func loadJSON<T>(name: String) -> T? {
