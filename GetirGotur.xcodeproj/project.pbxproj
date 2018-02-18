@@ -91,7 +91,7 @@
 		0FF8968F20377703008FAA26 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8968E20377703008FAA26 /* BaseViewController.swift */; };
 		0FF8969320377722008FAA26 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8969120377722008FAA26 /* LoadingView.xib */; };
 		0FF8969420377722008FAA26 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8969220377722008FAA26 /* LoadingView.swift */; };
-		0FFEF99A2037A1F900B5A4D5 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEF9992037A1F900B5A4D5 /* readme */; };
+		0FFEF99A2037A1F900B5A4D5 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEF9992037A1F900B5A4D5 /* readme.md */; };
 		0FFEF99D2037AA1A00B5A4D5 /* AppAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEF99C2037AA1A00B5A4D5 /* AppAPI.swift */; };
 		0FFEF99F2037AABB00B5A4D5 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEF99E2037AABB00B5A4D5 /* NetworkProvider.swift */; };
 		9BE565C483465089BB27156E /* Pods_GetirGotur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435BFF81856C21488732AA32 /* Pods_GetirGotur.framework */; };
@@ -198,7 +198,7 @@
 		0FF8968E20377703008FAA26 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0FF8969120377722008FAA26 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		0FF8969220377722008FAA26 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		0FFEF9992037A1F900B5A4D5 /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		0FFEF9992037A1F900B5A4D5 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		0FFEF99C2037AA1A00B5A4D5 /* AppAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAPI.swift; sourceTree = "<group>"; };
 		0FFEF99E2037AABB00B5A4D5 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 		20D95A1CFE2FB915A713E8B8 /* Pods-GetirGotur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirGotur.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetirGotur/Pods-GetirGotur.debug.xcconfig"; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 		0F55AD0920376D0500AAA930 = {
 			isa = PBXGroup;
 			children = (
-				0FFEF9992037A1F900B5A4D5 /* readme */,
+				0FFEF9992037A1F900B5A4D5 /* readme.md */,
 				0FE416D820395C7C00D280DD /* data.json */,
 				0F55AD1420376D0500AAA930 /* GetirGotur */,
 				0F55AD2920376D0500AAA930 /* GetirGoturUITests */,
@@ -660,7 +660,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFEF99A2037A1F900B5A4D5 /* readme in Resources */,
+				0FFEF99A2037A1F900B5A4D5 /* readme.md in Resources */,
 				0FE416D920395C7D00D280DD /* data.json in Resources */,
 				0FEC8D4A203781C500F21F8B /* TSTitleView.xib in Resources */,
 				0FF8966C20377112008FAA26 /* Main.storyboard in Resources */,
