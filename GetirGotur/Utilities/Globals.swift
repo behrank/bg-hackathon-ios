@@ -36,14 +36,9 @@ enum Storyboard : String {
 }
 
 var kIndexPathPointer = "kIndexPathPointer"
-
-
-enum CornerRadius:CGFloat {
-    case normal = 4
-    case medium = 9
-    case profileImage = 16
-}
-
+let countries = ["Türkiye","Almanya","Fransa","Amerika Birleşik Devletleri","Çin","Rusya"]
+let categories = ["Elektronik","Cep Telefonu","Kitap","Oyun","Oyuncak","Diğer","Giyecek"]
+let moneyCategories = ["Dolar","Euro","TL"]
 enum TagColors {
     case purple //#8053c9
     case blue //#2d9ccc

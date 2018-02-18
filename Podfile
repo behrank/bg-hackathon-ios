@@ -10,6 +10,7 @@ target 'GetirGotur' do
   pod 'Moya'
   pod 'NVActivityIndicatorView'
   pod 'PureLayout'
+  pod 'Marshal'
   
   target 'GetirGoturUITests' do
     inherit! :search_paths
