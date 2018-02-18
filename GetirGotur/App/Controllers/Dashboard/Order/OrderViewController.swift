@@ -55,13 +55,28 @@ extension OrderViewController {
 }
 extension OrderViewController:UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return DataManager.shared.deliveries.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellPost", for: indexPath)
+        let cellData = DataManager.shared.deliveries[indexPath.row]
+        let userInfo = DataManager.shared.users.filter({$0.userId == cellData.senderUserId}).first!
         let imgUser = cell.viewWithTag(1) as! UIImageView
+        imgUser.image = UIImage(named:userInfo.avatarImg!)
         imgUser.cornerRadius = 14
+        
+        let userName = cell.viewWithTag(2) as! UILabel
+        userName.text = userInfo.firstName! + " " + userInfo.lastName!
+       let country = cell.viewWithTag(3) as! UILabel
+        country.text = countries[cellData.targetCountry!]
+        let weight = cell.viewWithTag(4) as! UILabel
+        weight.text = cellData.weight!
+        let date1 = cell.viewWithTag(5) as! UILabel
+        date1.text = cellData.selectedDate!
+        let date2 = cell.viewWithTag(6) as! UILabel
+        date2.text = cellData.selectedDate2!
+        
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

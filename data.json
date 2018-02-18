@@ -1,0 +1,260 @@
+{
+    "deliverOptions":[
+                      {
+                      "requestId":1,
+                      "senderUserId":5,
+                      "targetCountry":1,
+                      "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
+                      "availableCategories":[1,2,3],
+                      "selectedDate":"15.02.2018",
+                      "selectedDate2":"24.02.2018",
+                      "weight":"3"
+                      },
+                      {
+                      "requestId":2,
+                      "senderUserId":6,
+                      "targetCountry":2,
+                      "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
+                      "availableCategories":[4],
+                      "selectedDate":"15.02.2018",
+                      "selectedDate2":"24.02.2018",
+                      "weight":"2"
+                      },
+                      {
+                      "requestId":3,
+                      "senderUserId":7,
+                      "targetCountry":3,
+                      "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
+                      "availableCategories":[5],
+                      "selectedDate":"15.02.2018",
+                      "selectedDate2":"24.02.2018",
+                      "weight":"4"
+                      },
+                      {
+                      "requestId":4,
+                      "senderUserId":8,
+                      "targetCountry":4,
+                      "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
+                      "availableCategories":[1,2],
+                      "selectedDate":"15.02.2018",
+                      "selectedDate2":"24.02.2018",
+                      "weight":"5"
+                      },
+                      {
+                      "requestId":5,
+                      "senderUserId":9,
+                      "targetCountry":5,
+                      "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
+                      "availableCategories":[4,5],
+                      "selectedDate":"15.02.2018",
+                      "selectedDate2":"24.02.2018",
+                      "weight":"3"
+                      },
+                      {
+                      "requestId":6,
+                      "senderUserId":10,
+                      "targetCountry":6,
+                      "note":"Belirttiğim tarihlerde orada olacağım. İstediğiniz birşey varsa getirebilirim.",
+                      "availableCategories":[1],
+                      "selectedDate":"15.02.2018",
+                      "selectedDate2":"24.02.2018",
+                      "weight":"2"
+                      }
+                      ],
+    "deliveryRequests": [
+                         {
+                         "requestId":1,
+                         "senderUserId":1,
+                         "requestTitle":"Playstation 4",
+                         "requestPrice":"300",
+                         "requestType":1,
+                         "priceType":1,
+                         "requestedCountryId":1,
+                         "selectedDate":"15.02.2018",
+                         "selectedDate2":"24.02.2018",
+                         "weight":"8",
+                         "lat":40.986086,
+                         "lon":29.022666,
+                         "address":"Tuğlacı Emin Bey sokak Moda Kadiköy/İstanbul",
+                         "cargoType":1
+                         },
+                         {
+                         "requestId":2,
+                         "senderUserId":2,
+                         "requestTitle":"Xiaomi Mi Band",
+                         "requestPrice":"400",
+                         "requestType":1,
+                         "priceType":1,
+                         "requestedCountryId":3,
+                         "selectedDate":"15.02.2018",
+                         "selectedDate2":"24.02.2018",
+                         "weight":"2",
+                         "lat":40.986086,
+                         "lon":29.022666,
+                         "address":"Tuğlacı Emin Bey sokak Moda Kadiköy/İstanbul",
+                         "cargoType":2
+                         },
+                         {
+                         "requestId":3,
+                         "senderUserId":3,
+                         "requestTitle":"iPhone 8",
+                         "requestPrice":"700",
+                         "requestType":3,
+                         "priceType":2,
+                         "requestedCountryId":2,
+                         "selectedDate":"15.02.2018",
+                         "selectedDate2":"24.02.2018",
+                         "weight":"1"
+                         },
+                         {
+                         "requestId":4,
+                         "senderUserId":4,
+                         "requestTitle":"Albert Einstein Evrenin Sırları",
+                         "requestPrice":"20",
+                         "requestType":4,
+                         "priceType":1,
+                         "requestedCountryId":1,
+                         "selectedDate":"15.02.2018",
+                         "selectedDate2":"24.02.2018",
+                         "weight":"1",
+                         "lat":40.986086,
+                         "lon":29.022666,
+                         "address":"Tuğlacı Emin Bey sokak Moda Kadiköy/İstanbul",
+                         "cargoType":2
+                         }
+                         ],
+    "users":[
+             {
+             "userId":1,
+             "first_name":"Behran",
+             "last_name":"Kankul",
+             "avatar_img":"027-hipster",
+             "deliveryRequestCount":4,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":20,
+             "deliveredCompletedCount":20,
+             "favoritedCountries": [
+                                    1,5,8
+                                    ]
+             },
+             {
+             "userId":2,
+             "first_name":"Hakan",
+             "last_name":"Eren",
+             "avatar_img":"038-man-1",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             },
+             {
+             "userId":3,
+             "first_name":"Bilgehan",
+             "last_name":"Kalkan",
+             "avatar_img":"005-man-3",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             },
+             {
+             "userId":4,
+             "first_name":"Furkan",
+             "last_name":"Doğan",
+             "avatar_img":"boy-15",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             },
+             {
+             "userId":5,
+             "first_name":"Burak",
+             "last_name":"Yavuzalp",
+             "avatar_img":"047-boy-1",
+             "deliveryRequestCount":4,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":20,
+             "deliveredCompletedCount":20,
+             "favoritedCountries": [
+                                    1,5,8
+                                    ]
+             },
+             {
+             "userId":6,
+             "first_name":"Özgür Can",
+             "last_name":"Aydın",
+             "avatar_img":"049-boy",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             },
+             {
+             "userId":7,
+             "first_name":"Mesut",
+             "last_name":"Çevik",
+             "avatar_img":"003-boy-14",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             },
+             {
+             "userId":8,
+             "first_name":"Erdi",
+             "last_name":"Özüağ",
+             "avatar_img":"009-boy-13",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             }
+             ,
+             {
+             "userId":9,
+             "first_name":"Yağız",
+             "last_name":"Erdinç",
+             "avatar_img":"021-boy-6",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             },
+             {
+             "userId":10,
+             "first_name":"Kıvanç",
+             "last_name":"Kara",
+             "avatar_img":"boy-15",
+             "deliveryRequestCount":5,
+             "deliveryCompletedCount":3,
+             "deliveredRequestCount":0,
+             "deliveredCompletedCount":0,
+             "favoritedCountries": [
+                                    1,2
+                                    ]
+             }
+             ]
+    
+}

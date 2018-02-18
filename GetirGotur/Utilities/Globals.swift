@@ -36,7 +36,7 @@ enum Storyboard : String {
 }
 
 var kIndexPathPointer = "kIndexPathPointer"
-let countries = ["Türkiye","Almanya","Fransa","Amerika Birleşik Devletleri","Çin","Rusya"]
+let countries = ["Türkiye","Almanya","Fransa","Amerika Birleşik Devletleri","Çin","Rusya","İsveç","Brezilya","Mısır"]
 let categories = ["Elektronik","Cep Telefonu","Kitap","Oyun","Oyuncak","Diğer","Giyecek"]
 let moneyCategories = ["Dolar","Euro","TL"]
 enum TagColors {
