@@ -28,3 +28,4 @@ Eksik Kalan Kısımlar:
 - Yurtdışından gelen ürünler için lokasyona bağlı (tespit edilmesi durumunda) "Ürünün ülkeye giriş yaptı" ve yurtiçi için "Ürün şehirine giriş yaptı" özellikleri
 - Map'te ürünün mevcut lokasyonunu gösterme
 - Kullanıcılara çeşitli event'ler için bildirim gönderme
+- API ile iletişim (basit bir moya provider'ı eklenmiştir)
